@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tools {
+    height: 3em;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.line-color {
+    width: 2em;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 4em;
+    cursor: pointer;
+}
+
+.line-width {
+    width: 10em;
+    cursor: pointer;
+}
+
+#clear,
+#undo,
+#redo,
+#reproduce {
+    width: 7em;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(110, 110, 110);
+    border: none;
+    box-shadow: 3px 3px 5px #1d1b1b;
+    text-transform: uppercase;
+    font-family: 'Tourney', cursive;
+}
+
+#clear:active,
+#undo:active,
+#redo:active,
+#reproduce:active  {
+    box-shadow: inset -3px -3px 5px #505050, inset 2px 2px 5px #505050;
+}
+
+label {
+    font-family: 'Tourney', cursive;
+}
+
+canvas {
+    background-color:#eee; 
+    border: 1px solid #ccc; 
+    margin: 10px;
+}
