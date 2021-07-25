@@ -1,6 +1,5 @@
-# Simple-Paint
+# Simple Paint
 Simple paint app on Node.js
-# Project Name
 
 ## Table of Contents
 * [General Info](#general-information)
